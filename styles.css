@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Science+Gothic:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    padding:0 50px;
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    align-items: center;
+}
+nav .left a{
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+}
+nav .right a{
+    color: black;
+    margin: 0 10px;
+}
+nav .right a:first-child{
+    color:white;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+a span{
+    margin-left: 5px;
+}
+img{
+    border-radius: 50%;
+}
+.objective{
+    font-size: 2rem;
+}
+
+
+.Hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media(max-width:600px) {
+
+    nav{
+    padding: 0 20px;
+}
+
+nav .right a span{
+    display: none;
+}
+
+nav .right a:first-child{
+    color:black;
+    background-color: white;
+    padding: 0;
+}
+nav .right a{
+    font-size: 22px;
+}
+}
